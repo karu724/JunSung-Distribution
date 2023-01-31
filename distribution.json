@@ -2,45 +2,45 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "1043149517777801216",
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
-      "id": "JunSung-1.12.2",
-      "name": "JunSung",
-      "description": "JunSung Running Minecraft 1.12.2",
+      "id": "Junsung-1.12.2",
+      "name": "Junsung (Minecraft 1.12.2)",
+      "description": "Junsung",
       "icon": null,
       "version": "1.0.0",
-      "address": "pokemon24.kr",
+      "address": "pokemon24.kr:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 4466148,
-            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+            "size": 4466108,
+            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
+            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2860",
+              "id": "1.12.2-14.23.5.2859",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 11799,
-                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
-                "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+                "size": 12345,
+                "MD5": "1959bb357e54a9666dd80d744b524639",
+                "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
               }
             },
             {
@@ -252,6 +252,16 @@
                 "MD5": "81e0433ae00602c0e4d00424d213b0ab",
                 "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
               }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
             }
           ]
         },
@@ -261,7 +271,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4632842,
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/JunSung-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.50.1.jar",
+            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/Junsung-1.12.2/forgemods/required/Armourers-Workshop-1.12.2-0.50.1.jar",
             "MD5": "7de8f79ffe08269680d5af154bcf2686"
           }
         },
@@ -271,7 +281,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 13056845,
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/JunSung-1.12.2/forgemods/required/CustomNPC_0219.jar",
+            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/Junsung-1.12.2/forgemods/required/CustomNPC_0219.jar",
             "MD5": "a4cadf9f81b1a1ed0593c97c5dd5d969"
           }
         },
@@ -281,7 +291,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6990968,
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/JunSung-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar",
+            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/Junsung-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar",
             "MD5": "8160b970fc14cff30dff2785bb9f964c"
           },
           "required": {
@@ -294,7 +304,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 30763,
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/JunSung-1.12.2/forgemods/optionalon/koreanchat-creo-1.12-1.9.jar",
+            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/Junsung-1.12.2/forgemods/optionalon/koreanchat-creo-1.12-1.9.jar",
             "MD5": "91492de16021a4f7018eb5d523f45fc2"
           },
           "required": {
@@ -307,28 +317,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 362869583,
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/JunSung-1.12.2/forgemods/required/Pixelmon-1.12.2-8.4.2-universal%20(1).jar",
+            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/Junsung-1.12.2/forgemods/required/Pixelmon-1.12.2-8.4.2-universal%20(1).jar",
             "MD5": "afeebcf34f03598ff24078add2419228"
-          }
-        },
-        {
-          "id": "generated.library:OptiFine_1.12.2_HD_U_F5:0.0.0@jar",
-          "name": "OptiFine_1.12.2_HD_U_F5",
-          "type": "Library",
-          "artifact": {
-            "size": 2598821,
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/JunSung-1.12.2/libraries/OptiFine_1.12.2_HD_U_F5.jar",
-            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b"
-          }
-        },
-        {
-          "id": "generated.library:jei_1.12.2:4.15.0.291@jar",
-          "name": "jei_1.12.2",
-          "type": "Library",
-          "artifact": {
-            "size": 651473,
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/JunSung-1.12.2/libraries/jei_1.12.2-4.15.0.291.jar",
-            "MD5": "cfdbfecefb1bdc5a3fbbcecbfecb0545"
           }
         }
       ]

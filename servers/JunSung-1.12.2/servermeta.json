@@ -1,20 +1,20 @@
 {
-  "$schema": "file:///F:/Code/minecraft/Distribution/JunSung/schemas/ServerMetaSchema.schema.json",
+  "$schema": "file:///F:/Code/JunSung-Distribution/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "JunSung",
-    "description": "JunSung Running Minecraft 1.12.2",
-    "address": "pokemon24.kr",
+    "name": "Junsung (Minecraft 1.12.2)",
+    "description": "Junsung",
+    "address": "pokemon24.kr:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": true,
-    "autoconnect": true
+    "mainServer": false,
+    "autoconnect": false
   },
   "forge": {
-    "version": "14.23.5.2860"
+    "version": "14.23.5.2859"
   },
   "untrackedFiles": []
 }

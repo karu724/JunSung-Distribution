@@ -1,9 +1,9 @@
 {
-  "$schema": "file:///F:/Code/minecraft/Distribution/JunSung/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///F:/Code/JunSung-Distribution/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
-      "clientId": "1043149517777801216",
+      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     }
