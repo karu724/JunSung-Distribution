@@ -387,12 +387,12 @@
           }
         },
         {
-          "id": "com.pixelmonmod:pixelmon:9.1.0@jar",
+          "id": "com.pixelmonmod:pixelmon:9.1.2@jar",
           "name": "Pixelmon Mod",
           "type": "ForgeMod",
           "artifact": {
             "size": 380808305,
-            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/Junsung-1.16.5/forgemods/required/Pixelmon-1.16.5-9.1.0-universal.jar",
+            "url": "https://raw.githubusercontent.com/karu724/JunSung-Distribution/main/servers/Junsung-1.16.5/forgemods/required/Pixelmon-1.16.5-9.1.2-universal.jar",
             "MD5": "2f8f7be2b80571bbaf7a8945c6937578"
           }
         },
