@@ -1,5 +1,5 @@
 {
-  "$schema": "file:///D:/junsung/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///D:/Junsung/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
